@@ -1,0 +1,55 @@
+
+// @import './Abstracts/variable';
+// font-family: 'Comodo', sans-serif;
+
+
+$bg-primary: #ED1D24;
+// hover:#ed1d24b7
+$bg-secondary: #F3F3F3;
+
+$bg: #a55f51;
+$bg: #b55281;
+$bg: #a29535;
+$bg: #00ff9b;
+$bg: #00D490;
+
+
+// --Abstract--
+// --Components--
+@import './Components/btn';
+@import './Components/section-heading';
+@import './Components/circle';
+@import './Components/avatar';
+@import './Components/slideshow';
+@import './Components/section-heading';
+@import './Components/circle';
+@import './Components/form';
+@import './Components/card';
+
+// --Layout--
+
+@import './Layout/bootstrap-grid';
+
+@import './Layout/header';
+@import './Layout/navbar';
+@import './Layout/footer';
+@import './Layout/page-section';
+
+@import './Layout/page-section';
+// --Pages--
+@import './Pages/slide';
+
+
+// --Base--
+@import './Base/base';
+@import './Base/utilities';
+
+// --Vendor from bootstrap--
+    //page: san_pham
+    // @import '../node_modules/bootstrap/scss/variables';
+    // @import '../node_modules/bootstrap/scss/card';
+
+
+
+// link tham khao: 
+// card_product: https://mdbootstrap.com/snippets/jquery/mdbootstrap/50504?action=full_screen_mode#css-tab-view
